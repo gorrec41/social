@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Footer from './component/footer/Footer';
 import Header from './component/header/Header';
 import Saidbare from './component/saidbar/Saidbare';

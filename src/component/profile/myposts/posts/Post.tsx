@@ -11,7 +11,7 @@ function Post(props:any) {
             <p>
                 {props.text}
             </p>
-    </div>
+        </div>
     )
 }
 export default Post;

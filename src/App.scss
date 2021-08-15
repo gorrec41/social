@@ -8,6 +8,7 @@ a{
 }
 .App {
   text-align: center;
+  overflow: hidden;
 }
 .wrap__app{
   display: grid;
@@ -39,6 +40,7 @@ a{
   background: rgb(30, 28, 148);
 }
 .content{
+  margin: 0 auto;
   grid-area: c;
   min-height: 80vh;
   width: 100%;
