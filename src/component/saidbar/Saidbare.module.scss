@@ -1,0 +1,24 @@
+.wrap_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list_saidbare{
+}
+.item_saidbare{
+    margin-bottom: 10px;
+    &:hover{
+        .link_saidbare{
+            color: rgba(252, 252, 252, .8);
+            text-shadow: 2px 2px 3px #8586b6;
+        }
+    }
+}
+.item_saidbare:nth-last-child(2){
+    margin-bottom: 40px;
+}
+.link_saidbare{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(252, 252, 252);
+}
